@@ -4,6 +4,9 @@ body{
     font-family: Josefin Sans;
     padding: 0px;
 }
+strong{
+    color: #4EC762;
+}
 
 header{
     background-image:linear-gradient(to bottom,#ADFBBA,#4EC762,#307A3C);
@@ -59,6 +62,10 @@ h3{
     background: #307A3C;
     color: rgb(114, 201, 128);
 }
+h4{
+    margin-top: 0px;
+    background-color: #307A3C;
+}
 
 p{
     text-align: justify;
@@ -71,12 +78,20 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
+.lista{
+    background-color: rgb(165, 241, 177);
+    padding: 20px;
+    margin:20px;
+    border-radius: 20px;
+}
 footer{
     background-color: black;
     color: white;
-    text-align: center;
+    
 }
 footer > p{
     margin: 0px;
+    text-align: center;
 }
 
