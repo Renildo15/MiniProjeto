@@ -9,6 +9,7 @@ body{
     background-color: #547A5B;
     font-family: Josefin Sans;
     padding: 0px;
+    margin: 0px;
 }
 strong{
     color: #4EC762;
@@ -16,10 +17,9 @@ strong{
 
 header{
     background-image:linear-gradient(to bottom,#ADFBBA,#4EC762,#307A3C);
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     min-width: 320px;
-    max-width: 900px;
-    padding: 20px;
+    padding-top: 40px;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -27,6 +27,8 @@ h1{
     color: white;
     text-align: center;
     font-weight: bold;
+    font-size: 70px;
+    text-shadow: 2px 2px 0px black;
 }
 
 .p1{
@@ -59,7 +61,8 @@ main{
     margin: auto;
     border-radius: 20px;
     min-width: 320px;
-    max-width: 900px;
+    max-width: 1100px;
+    box-shadow: 0px 0px 10px black;
 }
 
 img{
