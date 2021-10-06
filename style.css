@@ -11,7 +11,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-strong{
+main strong{
     color: #4EC762;
 }
 
@@ -52,6 +52,12 @@ nav > a{
     transition-duration: 0.5s;
 }
 
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 nav > a:hover{
     background-color: white;
     border-radius: 5px;
@@ -76,20 +82,27 @@ h2{
     font-size: 30px;
     background: #307A3C;
     color: white;
+    text-indent: 20px;
 }
 
 h3{
     font-size: 30px;
     background: #307A3C;
     color: white;
+    text-indent: 20px;
 }
-h4{
-    margin-top: 0px;
+aside > h4{
+    color: white;
     background-color: #307A3C;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
 }
 
-p{
+main p{
     text-align: justify;
+    line-height: 1em;
     text-indent: 50px;
     font-size: 20px;
 }
@@ -100,11 +113,17 @@ img{
     margin-right: auto;
 }
 
-.lista{
+aside{
     background-color: rgb(165, 241, 177);
-    padding: 20px;
-    margin:20px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
 
 footer{
@@ -119,8 +138,20 @@ footer > p{
     
 }
 
-a{
+main a{
     text-decoration: none;
     color: #307A3C;
+    font-weight: bold;
+    background-color: rgb(123, 255, 123);
+    padding: 2px 6px;
+}
+footer a{
+    text-decoration: none;
+    color: #307A3C;
+    font-weight: bold;
+}
+main a:hover{
+    text-decoration: underline;
+    color:white;
 }
 
